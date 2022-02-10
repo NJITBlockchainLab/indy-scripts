@@ -30,6 +30,8 @@ git clone https://github.com/bcgov/von-network.git
 #make virtual env
 python3 -m venv AriesEnv
 source AriesEnv/bin/activate
+#install python3-indy
+pip install python3-indy
 #install wheel
 pip install wheel
 #install dependencies and cloudagent
