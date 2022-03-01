@@ -34,10 +34,10 @@ git clone https://github.com/bcgov/von-network.git
 #make virtual env
 python3 -m venv AriesEnv
 source AriesEnv/bin/activate
-#install python3-indy
-pip install python3-indy
 #install wheel
 pip install wheel
+#install python3-indy
+pip install python3-indy
 #install dependencies and cloudagent
 sudo apt-get install libjpeg-dev zlib1g-dev
 pip install Pillow
